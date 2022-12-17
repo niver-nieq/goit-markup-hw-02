@@ -11,3 +11,17 @@ ul {
 .nav-info {
     text-decoration: none;   
 }
+
+.nav-info:hover {
+    background: blue;
+    color: red;
+}
+
+.email {
+    text-decoration: none;
+}
+
+.contacto {
+    text-decoration: none;
+}
+
