@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea #2</title> 
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Tarea #2</title>     
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
  
 <body>
 
     <header>
-        <nav>
+        <nav  class="menu">
             <a class="webstude" href="http://webstudio.com.bo/" target="_blank" title="Ir a pagina">WebStudio</a>
             <!-- La navegación а otros sitios -->
-            <ul>
+            <ul class="lis-info">
                 <li><a class="nav-info" href="./index.html">Estudio</a></li>
                 <li><a class="nav-info" href="./portfolio.html">Portafolio</a></li>
                 <li><a class="nav-info" href="#">Contacto</a></li>
@@ -24,7 +26,7 @@
             <!-- title="" Nos pone una descripción cuando pones el cursor sobre algun texto o algo en especifico -->
         </nav>
          
-        <ul>
+        <ul class="info-cont">
             <li><a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="contacto" href="tel:+525555296000">+52 55 5529 6000</a></li>
         </ul>             
@@ -32,16 +34,16 @@
 
     <main>
         <!-- Contenedor del titulo Principal -->
-        <section>           
-            <h1 class="title">SOLUCIONES EFICACES PAR SU NEGOCIO</h1>
-            <button class="Boton" type="button">Solucite nuestro servicio</button>            
+        <section class="tituli-principal">           
+            <h1 class="title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+            <button class="boton" type="button"><span class="con-boton">Solucite nuestro servicio</span></button>            
         </section>
         
         <!-- Contenedor de la descripción -->
-        <section>
+        <section class="con-descrip">
             <ul>
                 <li>
-                    <h3>ATENCIÓN A LOS DETALLES</h3>
+                    <h3 class="titu-secun">ATENCIÓN A LOS DETALLES</h3>
                     <P>Nos adentramos en todos los detalles y procesos de su negocio, para así
                         desarrollar una solución a su medida.</P>
                 </li>
@@ -49,7 +51,7 @@
             
             <ul>
                 <li>
-                    <h3>PUNTUALIDAD</h3>
+                    <h3 class="titu-secun">PUNTUALIDAD</h3>
                     <P>Con nosotros, usted puede sentirse seguro y protegido. Un principio de la
                         empresa:respetar su tiempo y
                         respetar los plazos acordados.</P>
@@ -59,7 +61,7 @@
             
             <ul>
                 <li>
-                    <h3>PLANIFICACIÓN</h3>
+                    <h3 class="titu-secun">PLANIFICACIÓN</h3>
                     <P>Usted podrá observar y participar en cada fase del desarrollo y aplicación de
                         soluciones.</P>
                 </li>
@@ -67,7 +69,7 @@
             
             <ul> 
                 <li>
-                    <h3>TEGNOLOGÍA MODERNA</h3>
+                    <h3 class="titu-secun">TEGNOLOGÍA MODERNA</h3>
                     <P>Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de
                         simplificar los
                         procesos laborales.</P>
@@ -76,9 +78,9 @@
         </section>
 
         <!-- Imagen a lo que se dedican -->
-        <section>
-            <h2>A qué nos dedicamos</h2>
-            <ul>                
+        <section class="sec-images">
+            <h2 class="ti-images">A qué nos dedicamos</h2>
+            <ul class="con-images">                
                 <li>                    
                     <img src="./images/images1/imagen1.png" alt="Aplicaciones de escritorio" width="373.16"/>                    
                 </li>
@@ -92,9 +94,9 @@
         </section>        
 
         <!-- Imagen del equpo -->
-        <section>
+        <section class="con-equipo">
             <h2>Nuestro Equipo</h2>
-            <ul>
+            <ul class="info-equipo">
                 <li>
                     <img src="./images/images2/imagen1.jpg" alt="imagen1" width="270">
                     <h3>Andrés Cubo</h3>
@@ -124,12 +126,12 @@
     </main>
 
     <footer>
-        <a class="webstude" href="https://taupe-melba-f719b1.netlify.app/" target="_blank" title="Ir a pagina">WebStudio</a>          
+        <a class="webstudefooter" href="https://taupe-melba-f719b1.netlify.app/" target="_blank" title="Ir a pagina">Web<samp class="studiouno">Studio</samp></a>          
         <address>
             <ul>
                 <li><a href="https://goo.gl/maps/KDuvCetYGWwRNp6s5" target="_blank" title="Ir a mapa">Calz. Ticomán 500, Ciudad de México, CDMX, México</a></li>
-                <li><a class="email" href="mailto:info@example.com" title="Enviar Correo">info@example.com</a></li>
-                <li><a class="contacto" href="tel:+525555296000">+52 55 5529 6000</a></li>
+                <li><a class="emailfooter" href="mailto:info@example.com" title="Enviar Correo">info@example.com</a></li>
+                <li><a class="contactofooter" href="tel:+525555296000">+52 55 5529 6000</a></li>
             </ul>           
         </address>
     </footer>
