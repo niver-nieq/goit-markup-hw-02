@@ -29,12 +29,8 @@ header li {
     line-height: 31px;
     text-align: right;
     letter-spacing: 0.03em;
-    color: #000509;
-    cursor: pointer;
-}
-
-.link-web:hover, .link-web:focus {
     color: #2196F3;
+    cursor: pointer;
 }
 
 /* En esta posición trabajo en la lista de navegación */
@@ -90,7 +86,7 @@ main li {
 }
 
 /* Trabajo en la section del titulo principal */
-.title-prin {
+.conten-prin {
     background: #2F303A;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -109,11 +105,9 @@ main li {
 }
 /* Trabajo en la seción del boton */
 .boton {
-    /* le damos estilo al boton */
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; */
+    /* Centrar boton */
+    /* display: block;  
+    margin: 0 auto; */
 
     /* Le damos estilo a las letras  */   
     font-style: normal;
@@ -144,9 +138,8 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.03em;
-
     color: #212121;
 }
 /* Trabajamos en los titulos del cuerpo h3 */
@@ -183,6 +176,52 @@ p {
 /* ---------------------------------------- */
 footer {
     background: #2F303A;
+}
+
+.link-web-footer {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+    /* identical to box height */
+    letter-spacing: 0.03em;    
+}
+
+.link-footer {
+    list-style: none;    
+    font-style: normal; 
+}
+.link-footer a:hover, .link-footer a:focus {
+    color: #2196F3;
+}
+
+.link-footer a {
+    text-decoration: none;
+    font-style: normal;
+        
+}
+.link-map {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+.link-con {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 /* ---------------------------------------- */
 
