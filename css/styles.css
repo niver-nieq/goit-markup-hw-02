@@ -1,144 +1,100 @@
-body { 
-    font-family: 'Roboto';
+body {
     background: #E5E5E5;
-    margin: 0px 0px 0px 0px;
+    font-family: 'Roboto', 'Arial';
 }
-/* Trabajando header en la parte de la cabecera del trabajo */
+
+/* //////////////////////////////////////// */
+/* En esta posición trabajamos en el header */
+/* //////////////////////////////////////// */
 header {
     background: #FFFFFF;
-    display: flex;
-    width: 1600px;
-    height: 80px;
-    margin-top: 0px;
-    margin-bottom: 0px;    
 }
 
-.menu {
-    display: flex;
+header li {
+    list-style: none;
 }
 
-.webstude{
+/* En esta posición trabajo en el logo de la pagina */
+.link-web {
+    text-decoration: none;
     width: 145px;
     height: 31px;
-    margin-left: 215px;
-    margin-right: 88px;
-    margin-top: 24px;
-    margin-bottom: 25px;
+    left: 215px;
+    top: 24px;
 
-    /* Diseño de la letra */
     font-family: 'Raleway';
-    text-decoration: none;  
-    color: blue;  
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     text-align: right;
     letter-spacing: 0.03em;
+    color: #000509;
+    cursor: pointer;
 }
 
-.webstude:hover {
+.link-web:hover, .link-web:focus {
     color: #2196F3;
 }
 
-
-
-.lis-info {
+/* En esta posición trabajo en la lista de navegación */
+/* .linknav {
     display: flex;
-    width: 281px;
-    height: 16px;
-    left: 448px;
-    right: 871px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-right: 0px;
-}
-
-.nav-info {
-    width: 49px;
-    height: 16px;
-    margin-left: 0px;
-    margin-right: 50px;
-    /* Diseño de la letra */
+} */
+.link-nav a {    
     text-decoration: none;
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
     color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
 }
 
-.info-cont {
+.link-nav a:hover,.link-nav a:focus{
+    color: #2196F3;
+}
+
+/* En esta ósición trabajo de la lista de contacto */
+/* .link-cont {
     display: flex;
-    position: absolute;
-    width: 600px;
-    height: 16px;
-    left: 1078px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-}
-.email {
-    width: 135px;
-    height: 16px;
-    margin-right: 50px;
-    text-decoration: none;  
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-}
+} */
 
-.contacto {
-    width: 118px;
-    height: 16px;
-    margin-right: 219px;
+.link-cont a {
     text-decoration: none;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
+    cursor: pointer;
     color: #757575;
 }
 
-ul {
+.link-cont a:hover, .link-cont a:focus {
+    color: #2196F3;
+}
+/* Ya esta listo el header */
+/* //////////////////////////////////////// */
+
+
+/* ************************************** */
+/* En esta posición trabajamos en el main */
+/* ************************************** */
+main {
+    background: #FFFFFF;
+}
+main li {
     list-style: none;
 }
 
-.nav-info:hover {
-    color: #2196F3;
-}
-
-/* Trabajando en el main, cuerpo del trabajo */
-
-main {
-    background: #FFFFFF;
-    width: 1600px;
-}
-/* Contenedor del titulo principal */
-.tituli-principal {
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    margin-top: 0px;
+/* Trabajo en la section del titulo principal */
+.title-prin {
     background: #2F303A;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
-.title { 
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    margin-top: 200px;
-
-    font-family: 'Roboto';
+.title {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -151,76 +107,61 @@ main {
 
     color: #FFFFFF;
 }
-
+/* Trabajo en la seción del boton */
 .boton {
-    /* Trabajo sobre el boton */
-    display: flex;
+    /* le damos estilo al boton */
+    /* display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    padding: 10px 32px;
-    gap: 10px;
+    align-items: center; */
 
-    position: absolute;
-    width: 261px;
-    height: 50px;
-    left: 670px;
-    margin-top: 350px;    
-    margin-bottom: 200px;
-}
-
-.con-boton {    
-    font-family: 'Roboto';
+    /* Le damos estilo a las letras  */   
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-
+    line-height: 30px;    
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: black;
-
     flex: none;
     order: 0;
     flex-grow: 0;
+    cursor: pointer;
+    
+    border: 2px solid var(--brand-color);
 }
 
-.boton:hover {
-    background: #2196F3;   
+.boton:hover, .boton:focus {
+    background: #2196F3;
+    color: #FFFFFF;    
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
-.con-boton:hover {
-    color: #FFFFFF;
+/* Trabajamos en los titulos del cuerpo h2 */
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+
+    color: #212121;
 }
-/* ********************************************* */
-
-/* Trabajo en el contenedor de la descripción */
-
-.con-descrip {
-    display: flex;
-    width: 1170px;
-    height: 122px;
-    margin-left: 215px;
-    margin-right: 215px;
-    margin-top: 95px;
-    margin-bottom: 94px;
-}
-
-.titu-secun {
-    font-family: 'Roboto';
+/* Trabajamos en los titulos del cuerpo h3 */
+h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
     color: #212121;
 }
+
 p {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -231,79 +172,19 @@ p {
 
     color: #757575;
 }
-.sec-images { 
-    /* position: absolute; */
-    text-align: justify;
-    width: 1173.16px;
-    height: 425px;
-    left: 215px;
-    top: 991px;
-}
-
-.ti-images {  
-    /* position: absolute;   */
-    width: 371.15px;
-    height: 46.24px;
-    left: 619.43px;
-    top: 991px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: #212121;
-}
-
-.con-images {
-    display: flex;
-}
-
+/* Trabajo en la section de nuestro equipo */
 .con-equipo {
-    /* position: absolute; */
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1510px;
     background: #F5F4FA;
 }
+/* ************************************** */
 
-.info-equipo {
-    display: flex;
-}
-
-
-
+/* ---------------------------------------- */
+/* En esta posición trabajamos en el footer */
+/* ---------------------------------------- */
 footer {
-    /* position: absolute; */
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2158px;
-
     background: #2F303A;
 }
-/* Trabajando footer en el pie de la pagina */
-.webstudefooter {
-    /* Diseño de la letra */
-    font-family: 'Raleway';
-    text-decoration: none;
-    color: blue;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    text-align: right;
-    letter-spacing: 0.03em;
-}
-.webstudefooter:hover {
-    color: #2196F3;
-}
-
-
+/* ---------------------------------------- */
 
 
 
