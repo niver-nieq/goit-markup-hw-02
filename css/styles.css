@@ -6,7 +6,7 @@ body {
 /* En esta posición trabajamos en el header */
 /* //////////////////////////////////////// */
 header {
-    background: #FFFFFF;
+    background: white;
 }
 
 header li {
@@ -102,8 +102,8 @@ main li {
 /* Trabajo en la seción del boton pagina Principal */
 .boton {
     /* Centrar boton */
-    /* display: block;  
-    margin: 0 auto; */
+    display: block;  
+    margin: 0 auto;
 
     /* Le damos estilo a las letras  */ 
     font-style: normal;
@@ -168,7 +168,6 @@ main li {
 
 /* Trabajamos en los titulos del cuerpo h2 */
 h2 {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -177,9 +176,23 @@ h2 {
     letter-spacing: 0.03em;
     color: #212121;
 }
+
+/* Centramos las imagenes en la pagina principal */
+.cont-img {
+    width: 1173.16px;
+    height: 425px;
+    left: 215px;
+    top: 991px;   
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.list-img {      
+    display: flex;
+}
+
 /* Trabajamos en los titulos del cuerpo h3 */
 h3 {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
