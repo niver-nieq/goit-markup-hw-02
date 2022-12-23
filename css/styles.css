@@ -29,7 +29,6 @@ header li {
     text-align: right;
     letter-spacing: 0.03em;
     color: #2196F3;
-    cursor: pointer;
 }
 
 /* En esta posición trabajo en la lista de navegación */
@@ -45,7 +44,6 @@ header li {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    cursor: pointer;
 }
 
 .link-nav a:hover,.link-nav a:focus{
@@ -65,7 +63,6 @@ header li {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    cursor: pointer;
     color: #757575;
 }
 
@@ -197,9 +194,7 @@ h3 {
 }
 
 p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    /* font-family: 'Roboto'; */
     font-size: 14px;
     line-height: 24px;
     /* or 171% */
