@@ -251,8 +251,7 @@ footer {
     font-style: normal;
         
 }
-.link-map {
-    font-family: 'Roboto';
+.link-map {    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -264,7 +263,6 @@ footer {
     color: #FFFFFF;
 }
 .link-con {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
