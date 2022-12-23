@@ -1,5 +1,5 @@
 body {   
-    font-family: 'Roboto''sans-serif';
+    font-family: Roboto, sans-serif;
 }
 
 /* //////////////////////////////////////// */
@@ -35,8 +35,7 @@ header li {
 /* .linknav {
     display: flex;
 } */
-.link-nav a {  
-    font-family: 'Roboto';  
+.link-nav a {      
     text-decoration: none;
     font-style: normal;
     color: #212121;
@@ -55,8 +54,7 @@ header li {
     display: flex;
 } */
 
-.link-cont a {
-    font-family: 'Roboto';
+.link-cont a {    
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -89,7 +87,6 @@ main li {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -108,8 +105,7 @@ main li {
     /* display: block;  
     margin: 0 auto; */
 
-    /* Le damos estilo a las letras  */  
-    font-family: 'Roboto'; 
+    /* Le damos estilo a las letras  */ 
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -130,6 +126,7 @@ main li {
 } */
 .link {
     background: red;
+    text-decoration: none;
 }
 
 .boton:hover, .boton:focus {
@@ -148,7 +145,6 @@ main li {
 } */
 
 .button {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
