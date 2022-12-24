@@ -2,16 +2,13 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-
+:root {
+    --var-color-title: #212121;
+    --var-color-text: #757575;
+    --var-color-hover-focus: #2196F3;
+    --var-colo-text-hover-focus: #FFFFFF;
+}
 /* En esta posición trabajamos en el header */
-
-header {
-    background: white;
-}
-
-header li {
-    list-style: none;
-}
 
 /* En esta posición trabajo en el logo de la pagina */
 .link-web {
@@ -31,18 +28,23 @@ header li {
     color: #2196F3;
 }
 
-/* Variable a utilizar de color negro */
-:root {
-    --var-color-title: #212121;
-    --var-color-text: #757575;
-    --var-color-hover-focus: #2196F3;
-    --var-colo-text-hover-focus: #FFFFFF;
-}
 
+.cabezera {
+    display: flex;
+}
+.cont-nav {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
 /* En esta posición trabajo en la lista de navegación */
-/* .linknav {
+/* .link-nav {
     display: flex;
 } */
+.link-nav {
+    display: flex;
+    list-style: none;        
+}
 .link-nav a {      
     text-decoration: none;
     font-style: normal;
@@ -51,6 +53,7 @@ header li {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    margin-right: 50px;
 }
 
 .link-nav a:hover,.link-nav a:focus{
@@ -61,8 +64,14 @@ header li {
 /* .link-cont {
     display: flex;
 } */
+.link-cont {
+    display: flex;
+    list-style: none;
+    margin-left: 294px;
+    margin-top: 40px;
+}
 
-.link-cont a {    
+.link-cont a {      
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -70,6 +79,7 @@ header li {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: var(--var-color-text);
+    margin-right: 50px;
 }
 
 .link-cont a:hover, .link-cont a:focus {
@@ -114,7 +124,8 @@ main li {
     margin: 0 auto;
 
     /* Le damos estilo a las letras  */ 
-    font-style: normal;
+    font-family: inherit;
+    /* font-style: normal; */
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;    
@@ -177,7 +188,7 @@ main li {
     height: 38px;
     margin-right: 9px;
 
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -190,8 +201,8 @@ main li {
     width: 145px;
     height: 38px; 
     margin-right: 9px;
-
-    font-family: 'Roboto';
+    
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
