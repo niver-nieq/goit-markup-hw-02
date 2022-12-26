@@ -336,7 +336,7 @@ footer {
 
 .link-footer a:hover,
 .link-footer a:focus {
-    color: var(--var-color-hover-focus);
+    color: var(--var-color-fondo-hover-focus);
 }
 
 .link-footer a {
