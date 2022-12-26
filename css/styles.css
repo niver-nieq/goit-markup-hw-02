@@ -89,7 +89,7 @@ body {
 
 .link-cont a:hover,
 .link-cont a:focus {
-    color: var(--var-color-hover-focus);
+    color: var(--var-color-fondo-hover-focus);
 }
 
 /* Ya esta listo el header */
