@@ -273,6 +273,7 @@ main li {
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
+    border: 2px solid var(--brand-color);
     Background: var(--var-color-fondo-hover-focus);
 }
 
