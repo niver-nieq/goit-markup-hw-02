@@ -1,5 +1,6 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
+    Background: #ffffff;
 }
 
 :root {
@@ -272,6 +273,7 @@ main li {
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
+    Background: var(--var-color-fondo-hover-focus);
 }
 
 .button {
